@@ -19,6 +19,6 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raselldev&layout=compact&hide=html" alt="raka rasell" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=raselldev&show_icons=true" alt="raka rasell" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=raselldev&show_icons=true" alt="raka rasell" /></p>
 
 
