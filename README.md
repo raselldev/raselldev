@@ -5,7 +5,7 @@
 ![Website Status](https://img.shields.io/website?style=for-the-badge&up_message=ONLINE&url=https%3A%2F%2Fraselldev.github.io)
 ![GitHub followers](https://img.shields.io/github/followers/raselldev?logo=GitHub&style=for-the-badge)
 
-- 🌱 I’m currently learning **Flutter, Digital Marketing, Business Concept**
+- 🌱 I’m currently learning **ReactJS, Digital Marketing, Business Concept**
 
 - 👯 I’m looking to collaborate with **other content creators**
 
@@ -16,9 +16,9 @@
 
 <br />
 
-
+## Stats
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raselldev&layout=compact&hide=html" alt="raka rasell" /></p>
-
+<br>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=raselldev&show_icons=true" alt="raka rasell" /></p>
 
 
