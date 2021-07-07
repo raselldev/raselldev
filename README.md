@@ -1,24 +1,19 @@
-<h1 align="center">I'm Raka Rasell</h1>
-<h3 align="center">Learning for enchanting my brain</h3>
+# 
 
+<p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=raselldev&show_icons=true&count_private=true&theme=dark"/>
+</p>
 
-![Website Status](https://img.shields.io/website?style=for-the-badge&up_message=ONLINE&url=https%3A%2F%2Fraselldev.github.io)
-![GitHub followers](https://img.shields.io/github/followers/raselldev?logo=GitHub&style=for-the-badge)
+## About Me
 
-- 🌱 I’m currently learning **ReactJS, Digital Marketing, Business Concept**
+Hi folks :wave: 
 
-- 👯 I’m looking to collaborate with **other content creators**
+*I'm Raka Rasell*
 
+I’m currently learning **ReactJS, NextJS, and, App Development**
 
-### Connect with me:
+I'm a Information Technology Engineering. I did my Bachelor's in Faculty of Technology and Design from Bunda Mulia University, Indonesia. I love to learn about how things work and try new tools and technologies.
 
-<a href="https://www.linkedin.com/in/rrsll/" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="raka rasell" height="22" width="22" /></a>
+## Contact
 
-<br />
-
-## Stats
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raselldev&layout=compact&hide=html" alt="raka rasell" /></p>
-<br>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=raselldev&show_icons=true" alt="raka rasell" /></p>
-
-
+<img src="https://img.shields.io/badge/rakarasell@outlook.com-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" href="rakarasell@outlook.com">   <a  href="https://www.instagram.com/rakarasell/"><img src="https://img.shields.io/badge/@rakarasell_-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>   <a href="https://www.linkedin.com/in/rrsll/"><img src="https://img.shields.io/badge/Raka Rasell-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>  
