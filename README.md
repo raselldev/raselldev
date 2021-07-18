@@ -15,7 +15,7 @@ I’m currently learning **ReactJS, NextJS, and, App Development**
 I'm a Information Technology Engineering. I did my Bachelor's in Faculty of Technology and Design from Bunda Mulia University, Indonesia. I love to learn about how things work and try new tools and technologies.
 
 ## Contact
-<a href="https://raselldev-vercel.vercel.app"><img src="https://img.shields.io/website?down_color=red&down_message=OFFLINE&style=flat-square&up_color=green&up_message=ONLINE&url=https%3A%2F%2Fraselldev-vercel.vercel.app%2F"></a>
+[![Website](https://img.shields.io/website?label=https://raselldev-vercel.vercel.app/&style=for-the-badge&url=https%3A%2F%2Faselldev-vercel.vercel.app)](https://raselldev-vercel.vercel.app)
 
 <a href="mailto:rakarasell@outlook.com">
 <img src="https://img.shields.io/badge/rakarasell@outlook.com-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" href="rakarasell@outlook.com"></a>
