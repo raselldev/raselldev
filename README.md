@@ -19,6 +19,8 @@ I'm a Information Technology Engineering. I did my Bachelor's in Faculty of Tech
 
 <!-- YOUTUBE:START -->
 - [#1 - Pengenalan Pemrograman](https://www.youtube.com/watch?v=TXk3nIyfqcg&ab_channel=RakaRasell)
+- [#2 - Roadmap Pemrograman](https://www.youtube.com/watch?v=OSoL1gqRtOg&ab_channel=RakaRasell)
+- 
 <!-- YOUTUBE:END -->
 
 [more videos...](https://youtube.com/Rakarasell)
