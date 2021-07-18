@@ -10,9 +10,20 @@ Hi folks :wave:
 
 *I'm Raka Rasell*
 
-I’m currently learning **ReactJS, NextJS, and, App Development**
+I’m currently learning **Web Development**
 
 I'm a Information Technology Engineering. I did my Bachelor's in Faculty of Technology and Design from Bunda Mulia University, Indonesia. I love to learn about how things work and try new tools and technologies.
+
+
+## 📺 Latest YouTube Videos
+
+<!-- YOUTUBE:START -->
+- [#1 - Pengenalan Pemrograman](https://www.youtube.com/watch?v=TXk3nIyfqcg&ab_channel=RakaRasell)
+<!-- YOUTUBE:END -->
+
+➡️ [more videos...](https://youtube.com/Rakarasell)
+
+---
 
 ## Contact
 [![Website](https://img.shields.io/website?label=LandingPage&style=for-the-badge&url=https%3A%2F%2Fraselldev-vercel.vercel.app)](https://raselldev-vercel.vercel.app)
