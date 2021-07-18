@@ -15,13 +15,13 @@ I’m currently learning **Web Development**
 I'm a Information Technology Engineering. I did my Bachelor's in Faculty of Technology and Design from Bunda Mulia University, Indonesia. I love to learn about how things work and try new tools and technologies.
 
 
-## 📺 Latest YouTube Videos
+## Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
 - [#1 - Pengenalan Pemrograman](https://www.youtube.com/watch?v=TXk3nIyfqcg&ab_channel=RakaRasell)
 <!-- YOUTUBE:END -->
 
-➡️ [more videos...](https://youtube.com/Rakarasell)
+[more videos...](https://youtube.com/Rakarasell)
 
 ---
 
