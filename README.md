@@ -1,39 +1,27 @@
-# 
+# 💫About Me :
+Hi folks 👋
 
-<p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=raselldev&show_icons=true&count_private=true&theme=dark"/>
-</p>
+I'm Raka Rasell
 
-## About Me
+I’m currently learning Mobile & Backend Development
 
-Hi folks :wave: 
+I love to learn about how things work and try new tools and technologies.
 
-*I'm Raka Rasell*
+## 🌐Socials
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rrsll) 
 
-I’m currently learning **Web Development**
+# 💻Tech Stack
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat-square&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat-square&logo=Flutter&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat-square&logo=nginx&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=flat-square&logo=microsoft%20sql%20server&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white) 	![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
+# 📊GitHub Stats :
+![](https://github-readme-stats.vercel.app/api?username=raselldev&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=raselldev&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=raselldev&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-I'm a Information Technology Engineering. I did my Bachelor's in Faculty of Technology and Design from Bunda Mulia University, Indonesia. I love to learn about how things work and try new tools and technologies.
+## 🏆GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=raselldev&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
 
-
-## Latest YouTube Videos
-
-<!-- YOUTUBE:START -->
-- [#1 - Pengenalan Pemrograman](https://www.youtube.com/watch?v=TXk3nIyfqcg&ab_channel=RakaRasell)
-- [#2 - Roadmap Pemrograman](https://www.youtube.com/watch?v=OSoL1gqRtOg&ab_channel=RakaRasell)
-<!-- YOUTUBE:END -->
-
-[more videos...](https://youtube.com/Rakarasell)
+### ✍️Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 ---
-
-## Contact
-[![Website](https://img.shields.io/website?label=LandingPage&style=for-the-badge&url=https%3A%2F%2Fraselldev-vercel.vercel.app)](https://raselldev-vercel.vercel.app)
-
-<a href="mailto:rakarasell@outlook.com">
-<img src="https://img.shields.io/badge/rakarasell@outlook.com-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" href="rakarasell@outlook.com"></a>
-
-<a  href="https://www.instagram.com/rakarasell/">
-<img src="https://img.shields.io/badge/@rakarasell_-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
-
-<a href="https://www.linkedin.com/in/rrsll/">
-<img src="https://img.shields.io/badge/Raka Rasell-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" ></a>  
+[![](https://visitcount.itsvg.in/api?id=raselldev&icon=0&color=3)](https://visitcount.itsvg.in)
