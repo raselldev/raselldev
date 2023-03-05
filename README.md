@@ -1,3 +1,4 @@
+
 # 💫About Me :
 Hi folks 👋
 
@@ -10,9 +11,9 @@ I love to learn about how things work and try new tools and technologies.
 ## 🌐Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/rrsll/) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@https://rakarasell.medium.com/) 
 
-# 📊GitHub Stats :
-![](https://github-readme-stats.vercel.app/api?username=raselldev&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=raselldev&theme=blue-green&hide_border=false)<br/>
+## 📊GitHub Stats :
+![](https://github-readme-stats.vercel.app/api?username=raselldev&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true)
+![](https://github-readme-streak-stats.herokuapp.com/?user=raselldev&theme=blue-green&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=raselldev&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
 ## 🏆GitHub Trophies
