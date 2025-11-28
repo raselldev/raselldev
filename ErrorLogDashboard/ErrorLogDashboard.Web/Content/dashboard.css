@@ -1,0 +1,306 @@
+/* Error Log Dashboard Styles */
+
+/* General */
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Summary Cards */
+.summary-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.icon-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/* Chart Containers */
+.chart-container {
+    position: relative;
+    height: 300px;
+}
+
+.chart-container-wide {
+    position: relative;
+    height: 250px;
+}
+
+/* Table Styles */
+#errorTable {
+    font-size: 0.9rem;
+}
+
+#errorTable thead th {
+    white-space: nowrap;
+    font-weight: 600;
+    border-top: none;
+}
+
+#errorTable .sortable {
+    cursor: pointer;
+    user-select: none;
+}
+
+#errorTable .sortable:hover {
+    background-color: #e9ecef;
+}
+
+#errorTable .sortable.sorted-asc i::before {
+    content: "\F128";
+}
+
+#errorTable .sortable.sorted-desc i::before {
+    content: "\F12B";
+}
+
+#errorTable tbody tr {
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+#errorTable tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+.message-preview {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.source-badge {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+/* Platform Badges */
+.platform-badge {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.platform-android {
+    background-color: #3ddc84;
+    color: #fff;
+}
+
+.platform-ios {
+    background-color: #000;
+    color: #fff;
+}
+
+.platform-windows {
+    background-color: #0078d4;
+    color: #fff;
+}
+
+.platform-web {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+.platform-default {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Error Count Badge */
+.error-count {
+    font-weight: 600;
+}
+
+.error-count.high {
+    color: #dc3545;
+}
+
+.error-count.medium {
+    color: #fd7e14;
+}
+
+.error-count.low {
+    color: #28a745;
+}
+
+/* Pagination */
+.pagination .page-link {
+    border: none;
+    margin: 0 2px;
+    border-radius: 4px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+}
+
+/* Modal Styles */
+.detail-card {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.stack-trace-box {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.85rem;
+    max-height: 400px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+}
+
+/* Filter Section */
+.form-select:focus,
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Export Buttons */
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .chart-container {
+        height: 250px;
+    }
+    
+    .chart-container-wide {
+        height: 200px;
+    }
+    
+    .icon-circle {
+        width: 48px;
+        height: 48px;
+        font-size: 1.25rem;
+    }
+    
+    .summary-card h2 {
+        font-size: 1.5rem;
+    }
+    
+    #errorTable {
+        font-size: 0.8rem;
+    }
+    
+    .message-preview {
+        max-width: 150px;
+    }
+    
+    .source-badge {
+        max-width: 100px;
+    }
+}
+
+/* Animation for loading */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in;
+}
+
+/* Custom scrollbar for stack trace */
+.stack-trace-box::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.stack-trace-box::-webkit-scrollbar-track {
+    background: #2d2d2d;
+    border-radius: 4px;
+}
+
+.stack-trace-box::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+    border-radius: 4px;
+}
+
+.stack-trace-box::-webkit-scrollbar-thumb:hover {
+    background: #787878;
+}
+
+/* Table action buttons */
+.btn-view-detail {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Empty state */
+.empty-state {
+    padding: 3rem;
+    text-align: center;
+}
+
+.empty-state i {
+    font-size: 4rem;
+    color: #dee2e6;
+    margin-bottom: 1rem;
+}
+
+.empty-state h5 {
+    color: #6c757d;
+}
+
+.empty-state p {
+    color: #adb5bd;
+}
