@@ -16,12 +16,13 @@ namespace ErrorLogDashboard.Web.Services
     /// </summary>
     public class ErrorLogService : IErrorLogService
     {
+        private const string ConnectionStringName = "ErrorLogDb";
         private readonly string _connectionString;
 
         public ErrorLogService()
         {
-            _connectionString = ConfigurationManager.ConnectionStrings["ErrorLogDb"]?.ConnectionString 
-                ?? throw new InvalidOperationException("Connection string 'ErrorLogDb' not found in configuration.");
+            _connectionString = ConfigurationManager.ConnectionStrings[ConnectionStringName]?.ConnectionString 
+                ?? throw new InvalidOperationException($"Connection string '{ConnectionStringName}' not found in configuration.");
         }
 
         public ErrorLogService(string connectionString)

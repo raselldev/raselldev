@@ -14,6 +14,7 @@ namespace ErrorLogDashboard.Web.Controllers.Api
     [RoutePrefix("api/errorlog")]
     public class ErrorLogApiController : ApiController
     {
+        private const int MaxPageSize = 100;
         private readonly IErrorLogService _errorLogService;
 
         public ErrorLogApiController()
@@ -59,7 +60,7 @@ namespace ErrorLogDashboard.Web.Controllers.Api
                     EndDate = endDate,
                     Search = search,
                     Page = Math.Max(1, page),
-                    PageSize = Math.Min(Math.Max(1, pageSize), 100),
+                    PageSize = Math.Min(Math.Max(1, pageSize), MaxPageSize),
                     SortColumn = sortColumn,
                     SortDirection = sortDirection
                 };

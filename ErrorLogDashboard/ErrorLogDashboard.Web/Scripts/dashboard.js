@@ -14,8 +14,11 @@ let autoRefreshInterval = null;
 let currentErrorId = null;
 let selectedIds = [];
 
-// API base URL
-const API_BASE = '/api/errorlog';
+// Configuration
+const config = {
+    autoRefreshIntervalMs: 30000, // 30 seconds - can be configured
+    apiBase: '/api/errorlog'
+};
 
 // Chart colors
 const chartColors = {
@@ -100,7 +103,7 @@ function initializeDataTable() {
         processing: true,
         serverSide: true,
         ajax: {
-            url: API_BASE,
+            url: config.apiBase,
             type: 'GET',
             data: function(d) {
                 return {
@@ -515,7 +518,7 @@ function loadDashboardData() {
  */
 function loadSummary() {
     $.ajax({
-        url: API_BASE + '/summary',
+        url: config.apiBase + '/summary',
         method: 'GET',
         success: function(data) {
             $('#totalErrors').text(data.totalErrors || 0);
@@ -537,7 +540,7 @@ function loadSummary() {
  */
 function loadPlatformStats() {
     $.ajax({
-        url: API_BASE + '/platforms',
+        url: config.apiBase + '/platforms',
         method: 'GET',
         success: function(data) {
             const labels = data.map(d => d.platform);
@@ -560,7 +563,7 @@ function loadPlatformStats() {
  */
 function loadResolutionStats() {
     $.ajax({
-        url: API_BASE + '/resolution-stats',
+        url: config.apiBase + '/resolution-stats',
         method: 'GET',
         success: function(data) {
             resolutionChart.data.datasets[0].data = [data.resolved || 0, data.unresolved || 0];
@@ -577,7 +580,7 @@ function loadResolutionStats() {
  */
 function loadVersionStats() {
     $.ajax({
-        url: API_BASE + '/versions',
+        url: config.apiBase + '/versions',
         method: 'GET',
         success: function(data) {
             const topVersions = data.slice(0, 8);
@@ -596,7 +599,7 @@ function loadVersionStats() {
  */
 function loadSourceStats() {
     $.ajax({
-        url: API_BASE + '/sources?top=10',
+        url: config.apiBase + '/sources?top=10',
         method: 'GET',
         success: function(data) {
             sourceChart.data.labels = data.map(d => truncateString(d.source, 25));
@@ -614,7 +617,7 @@ function loadSourceStats() {
  */
 function loadTrendStats() {
     $.ajax({
-        url: API_BASE + '/trends?days=30',
+        url: config.apiBase + '/trends?days=30',
         method: 'GET',
         success: function(data) {
             trendChart.data.labels = data.map(d => d.date);
@@ -633,7 +636,7 @@ function loadTrendStats() {
 function showErrorDetail(id) {
     showLoading();
     $.ajax({
-        url: API_BASE + '/' + id,
+        url: config.apiBase + '/' + id,
         method: 'GET',
         success: function(data) {
             hideLoading();
@@ -717,7 +720,7 @@ function showErrorDetail(id) {
 function resolveError(id) {
     showLoading();
     $.ajax({
-        url: API_BASE + '/' + id + '/resolve',
+        url: config.apiBase + '/' + id + '/resolve',
         method: 'PUT',
         success: function(response) {
             hideLoading();
@@ -738,7 +741,7 @@ function resolveError(id) {
 function unresolveError(id) {
     showLoading();
     $.ajax({
-        url: API_BASE + '/' + id + '/unresolve',
+        url: config.apiBase + '/' + id + '/unresolve',
         method: 'PUT',
         success: function(response) {
             hideLoading();
@@ -759,7 +762,7 @@ function unresolveError(id) {
 function bulkResolve(ids) {
     showLoading();
     $.ajax({
-        url: API_BASE + '/bulk-resolve',
+        url: config.apiBase + '/bulk-resolve',
         method: 'PUT',
         contentType: 'application/json',
         data: JSON.stringify({ ids: ids }),
@@ -782,7 +785,7 @@ function bulkResolve(ids) {
 function bulkUnresolve(ids) {
     showLoading();
     $.ajax({
-        url: API_BASE + '/bulk-unresolve',
+        url: config.apiBase + '/bulk-unresolve',
         method: 'PUT',
         contentType: 'application/json',
         data: JSON.stringify({ ids: ids }),
@@ -879,7 +882,7 @@ function startAutoRefresh() {
     stopAutoRefresh();
     autoRefreshInterval = setInterval(function() {
         refreshData();
-    }, 30000); // 30 seconds
+    }, config.autoRefreshIntervalMs);
 }
 
 /**
@@ -921,13 +924,21 @@ function updateChartTheme() {
 }
 
 /**
- * Escape HTML to prevent XSS
+ * Escape HTML to prevent XSS (efficient implementation with lookup table)
  */
+const htmlEscapeMap = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+};
+
 function escapeHtml(text) {
     if (!text) return '';
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
+    return String(text).replace(/[&<>"']/g, function(char) {
+        return htmlEscapeMap[char];
+    });
 }
 
 /**
