@@ -2,7 +2,7 @@
 
 A comprehensive, interactive dashboard for monitoring error logs from SQL Server. Built with ASP.NET Web API (.NET Framework 4.8) and modern frontend technologies.
 
-![Dashboard Overview](docs/screenshots/dashboard-overview.png)
+<!-- Screenshot placeholder: Add dashboard-overview.png to docs/screenshots/ after deployment -->
 
 ## Features
 
@@ -255,20 +255,19 @@ config.EnableCors(cors);
 
 ## Screenshots
 
+*Note: Screenshots will be added after the dashboard is deployed and running.*
+
 ### Dashboard Overview
 *Shows summary cards, charts, and data table*
-
-![Dashboard Overview](docs/screenshots/dashboard-overview.png)
+<!-- Add screenshot: docs/screenshots/dashboard-overview.png -->
 
 ### Error Detail Modal
 *Detailed view of a specific error*
-
-![Error Detail](docs/screenshots/error-detail.png)
+<!-- Add screenshot: docs/screenshots/error-detail.png -->
 
 ### Filtered Results
 *Dashboard with applied filters*
-
-![Filtered Results](docs/screenshots/filtered-results.png)
+<!-- Add screenshot: docs/screenshots/filtered-results.png -->
 
 ## Database Schema
 

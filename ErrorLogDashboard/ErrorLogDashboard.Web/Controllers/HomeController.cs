@@ -14,5 +14,13 @@ namespace ErrorLogDashboard.Web.Controllers
         {
             return View();
         }
+
+        /// <summary>
+        /// Error page
+        /// </summary>
+        public ActionResult Error()
+        {
+            return View();
+        }
     }
 }
