@@ -1,0 +1,513 @@
+/* Error Log Dashboard Styles */
+
+/* Variables */
+:root {
+    --primary-color: #0d6efd;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --border-radius: 8px;
+    --transition-speed: 0.3s;
+}
+
+/* Light Mode (Default) */
+body.light-mode {
+    background-color: #f5f7fa;
+    color: #212529;
+}
+
+body.light-mode .card {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+body.light-mode .table {
+    color: #212529;
+}
+
+body.light-mode .modal-content {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1a1d21;
+    color: #e9ecef;
+}
+
+body.dark-mode .card {
+    background-color: #2b3035;
+    color: #e9ecef;
+    border-color: #495057;
+}
+
+body.dark-mode .card-header {
+    background-color: #343a40;
+    border-color: #495057;
+}
+
+body.dark-mode .table {
+    color: #e9ecef;
+}
+
+body.dark-mode .table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: #e9ecef;
+    --bs-table-bg-type: #343a40;
+}
+
+body.dark-mode .table-hover > tbody > tr:hover > * {
+    --bs-table-bg-state: #3d4349;
+    color: #fff;
+}
+
+body.dark-mode .modal-content {
+    background-color: #2b3035;
+    color: #e9ecef;
+}
+
+body.dark-mode .modal-header,
+body.dark-mode .modal-footer {
+    border-color: #495057;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #343a40;
+    color: #e9ecef;
+    border-color: #495057;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+    background-color: #3d4349;
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+body.dark-mode .nav-tabs .nav-link {
+    color: #adb5bd;
+}
+
+body.dark-mode .nav-tabs .nav-link.active {
+    background-color: #2b3035;
+    color: #fff;
+    border-color: #495057;
+}
+
+body.dark-mode .footer {
+    background-color: #1a1d21 !important;
+}
+
+body.dark-mode .btn-close {
+    filter: invert(1);
+}
+
+/* Summary Cards */
+.summary-card {
+    border-radius: var(--border-radius);
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    border-width: 2px;
+}
+
+.summary-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.summary-card .card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.summary-card .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Chart Cards */
+.card {
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: box-shadow var(--transition-speed);
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    padding: 1rem;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35em 0.65em;
+    font-size: 0.85em;
+    font-weight: 600;
+    border-radius: 50rem;
+}
+
+.status-badge.resolved {
+    background-color: rgba(25, 135, 84, 0.15);
+    color: var(--success-color);
+}
+
+.status-badge.unresolved {
+    background-color: rgba(220, 53, 69, 0.15);
+    color: var(--danger-color);
+}
+
+.status-badge i {
+    margin-right: 0.25rem;
+}
+
+/* Data Table */
+#errorLogTable {
+    font-size: 0.9rem;
+}
+
+#errorLogTable thead th {
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom-width: 2px;
+    white-space: nowrap;
+}
+
+#errorLogTable tbody td {
+    vertical-align: middle;
+}
+
+#errorLogTable .message-cell {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#errorLogTable .source-cell {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table-row-selected {
+    background-color: rgba(13, 110, 253, 0.1) !important;
+}
+
+/* Action Buttons */
+.btn-action {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: nowrap;
+}
+
+/* Error Detail Modal */
+.error-detail-section {
+    margin-bottom: 1.5rem;
+}
+
+.error-detail-section h6 {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.25rem;
+}
+
+.stack-trace-container {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.stack-trace-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.stack-trace-container::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+.stack-trace-container::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+.stack-trace-container::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+/* Nav Tabs */
+.nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #6c757d;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    transition: all var(--transition-speed);
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--primary-color);
+    border-color: transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    background-color: transparent;
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: -2px;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+body.dark-mode .loading-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Filter Section */
+.filter-section .form-label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Expandable Row Content */
+.expanded-content {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-radius: var(--border-radius);
+    margin: 0.5rem 0;
+}
+
+body.dark-mode .expanded-content {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.expanded-content h6 {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.expanded-content pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+/* Toastr Customization */
+.toast-success {
+    background-color: var(--success-color) !important;
+}
+
+.toast-error {
+    background-color: var(--danger-color) !important;
+}
+
+.toast-info {
+    background-color: var(--info-color) !important;
+}
+
+.toast-warning {
+    background-color: var(--warning-color) !important;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .summary-card .card-icon {
+        font-size: 2rem;
+    }
+    
+    .summary-card .card-title {
+        font-size: 1.5rem;
+    }
+    
+    #errorLogTable {
+        font-size: 0.8rem;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+    }
+    
+    .btn-action {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.4rem;
+    }
+}
+
+/* Platform Icons */
+.platform-icon {
+    font-size: 1.2rem;
+    margin-right: 0.25rem;
+}
+
+.platform-android {
+    color: #3DDC84;
+}
+
+.platform-ios {
+    color: #999;
+}
+
+.platform-windows {
+    color: #0078D6;
+}
+
+/* DataTables Pagination */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border-radius: var(--border-radius);
+    margin: 0 2px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Checkbox Styling */
+.form-check-input {
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Clickable Row */
+.clickable-row {
+    cursor: pointer;
+}
+
+.clickable-row:hover {
+    background-color: rgba(13, 110, 253, 0.05) !important;
+}
+
+/* Info Row Styling */
+.info-row {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.info-label {
+    font-weight: 600;
+    min-width: 120px;
+    color: var(--primary-color);
+}
+
+.info-value {
+    flex: 1;
+}
+
+/* Device Info Badge */
+.device-badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    font-size: 0.8em;
+    background-color: rgba(108, 117, 125, 0.1);
+    color: #6c757d;
+    border-radius: 4px;
+}
+
+/* Version Badge */
+.version-badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    font-size: 0.8em;
+    background-color: rgba(13, 110, 253, 0.1);
+    color: var(--primary-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+/* Bulk Action Buttons */
+#bulkResolve:disabled,
+#bulkUnresolve:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Refresh Indicator */
+.refresh-indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--success-color);
+    border-radius: 50%;
+    margin-left: 8px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
