@@ -1,3 +1,4 @@
+
 <div align="center">
   
 # Hi there, I'm Raka Rasell 👋
@@ -77,52 +78,6 @@ Founded by three idealists, specializing in discreet, high-impact projects inclu
 
 ---
 
-## 📜 Certifications
-
-- 🏅 Flutter For Designer 2021
-- 🏅 Problem Solving (Basic)
-- 🏅 EF SET English Certificate 47/100 (B1 Intermediate)
-- 🏅 Pemrograman Go-Lang: Pemula sampai Mahir
-- 🏅 Python (Basic)
-
----
-
-## 🎓 Education
-
-**Universitas Bunda Mulia**  
-🎓 Bachelor of Technology - BTech, Information Technology (2016 - 2020)
-
----
-
-## 🌐 Languages
-
-- 🇬🇧 English (Professional Working)
-- 🇮🇩 Indonesian (Native or Bilingual)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=raselldev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=raselldev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/raselldev)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=raselldev&theme=tokyonight&hide_border=true)](https://github.com/raselldev)
-
-<a href="https://stats.hyochan.dev/en/stats/raselldev"><img src="https://stats.hyochan.dev/api/github-stats?login=raselldev" width="600" /></a>
-
-</div>
-
----
-
-## 🏢 Previous Ventures
-
-- **GIJOEFIX** (2019-2021) - Co-Founded a gadget service platform
-- **Traders Family** (2017-2019) - Frontend Web Developer, Video Production & Digital Marketing
-
----
 
 <div align="center">
 
