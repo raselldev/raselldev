@@ -2,9 +2,9 @@
 
 # Raka Rasell
 
-### Software Engineer • System Builder • Product-Minded Developer
+### Enterprise .NET Specialist • System Architect • Indie Founder
 
-Building scalable systems, mobile apps, backend platforms, automation tools, and occasionally questionable midnight experiments that somehow become real products.
+Designing enterprise-grade backend systems by day, building my own product from scratch by night. I like both ends of the spectrum.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakarasell/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=safari&logoColor=white)](https://rakarasell.dev)
@@ -16,62 +16,49 @@ Building scalable systems, mobile apps, backend platforms, automation tools, and
 
 # About Me
 
-I'm a software engineer focused on building scalable applications, modern backend systems, mobile platforms, and developer-driven products.
+I'm a software engineer working across two very different worlds: large-scale enterprise systems at an automotive company, and a self-built commerce platform on the side.
 
-Most of my work revolves around:
+That combination shapes how I think about engineering:
 
-- Enterprise application development
-- System modernization & migration
-- Backend architecture & integrations
-- Mobile app development
-- Automation & infrastructure thinking
-- Product experimentation & startup exploration
+- System architecture & modernization — turning legacy stacks into something maintainable
+- Backend platforms & integrations across multiple services and data sources
+- Mobile application development
+- Full-stack ownership when there's no team to delegate to
+- Infrastructure decisions, not just code — servers, deployment, the boring stuff that matters
 
-I enjoy solving problems that sit between engineering and business strategy. Usually involving APIs, distributed systems, data pipelines, or figuring out why legacy systems behave like haunted houses.
-
----
-
-# Current Focus
-
-- Building product ideas around swipe-based UX, commerce infrastructure, and intelligent systems
-- Exploring machine learning for gaming analytics & recommendation systems
-- Designing backend-first architectures for flexible frontend ecosystems
-- Experimenting with automation, quant systems, and scalable app platforms
+I enjoy the kind of problems that sit between engineering and business strategy — APIs, distributed systems, data pipelines, and occasionally figuring out why a legacy system behaves like a haunted house.
 
 ---
 
 # Experience
 
-## Open Hero Labs — Co-Founder
-**2024 - Present**
-
-Building technology products, internal tools, and digital systems focused on operational efficiency, business acceleration, and scalable architecture.
-
-Areas of work include:
-- Product Engineering
-- System Architecture
-- Technical Consulting
-- Automation & Integration
-- Experimental Product Development
-
----
-
 ## Honda Prospect Motor — Senior Programmer
-**2024 - Present**
+**2021 - Present** · Senior Programmer since 2024
 
-Working on enterprise-grade systems and digital platforms within automotive operations.
+Enterprise software development across backend APIs, web platforms, and mobile apps within automotive operations — broader scope than a typical specialist role, spanning .NET Framework web apps, stored procedures, and integrations.
 
 Key contributions:
 - Modernizing legacy applications into newer .NET ecosystems
+- Cross-border data integration between Honda Thailand and Honda Indonesia (AO Project)
 - Developing mobile and internal operational platforms
-- Building integrations and data processing systems
-- Supporting large-scale enterprise workflows
+- Supporting large-scale enterprise workflows at dealer-network scale
 
-Projects involved:
-- Honda Connect
-- Honda Smart Device
-- Technician Operational Apps
-- Internal Enterprise Platforms
+Projects involved: Honda Connect, Honda Smart Device, Technician Operational Apps, Internal Enterprise Platforms
+
+---
+
+## Open Hero Labs — Co-Founder
+**2024 - Present**
+
+Building technology products and digital systems outside the enterprise world, with full ownership from architecture to deployment.
+
+Flagship project: **DapurWangi**, a commerce platform running on a .NET Core 10 backend with EF Core, currently migrating its frontend from Next.js to Nuxt 4 and self-hosted on a VPS in the Indonesia region.
+
+Areas of work include:
+- Product Engineering & System Architecture
+- Technical Consulting
+- Automation & Integration
+- Experimental Product Development
 
 ---
 
@@ -87,25 +74,15 @@ Projects involved:
 ## Frontend & Mobile
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Xamarin](https://img.shields.io/badge/Xamarin-3498DB?style=for-the-badge&logo=xamarin&logoColor=white)
 
 ## Database & Infrastructure
 
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-
----
-
-# Engineering Interests
-
-- Scalable Backend Architecture
-- Headless Systems
-- Mobile Infrastructure
-- AI-Assisted Applications
-- Quant & Automation Systems
-- Real-time Data Processing
-- Product Strategy Through Engineering
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 ---
 
@@ -113,7 +90,7 @@ Projects involved:
 
 I like building systems that are practical, scalable, and flexible enough to survive contact with real users. Clean architecture matters. Performance matters. Shipping matters more.
 
-Also mildly obsessed with turning chaotic ideas into usable products. A deeply unfortunate condition among engineers.
+Running an enterprise system and a self-built platform at the same time teaches you fast which architectural decisions are real principles and which were just cargo-culting. I try to keep only the former.
 
 ---
 
